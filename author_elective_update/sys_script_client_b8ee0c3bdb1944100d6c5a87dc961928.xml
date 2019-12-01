@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>short_description</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>NeedIt Set Requested For</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	
+	alert("Ypu have changed Short description  from " + oldValue + " to " + newValue);
+
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>pooja.chugwani@snc</sys_created_by>
+        <sys_created_on>2019-11-30 07:16:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b8ee0c3bdb1944100d6c5a87dc961928</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>NeedIt Set Requested For</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_client_b8ee0c3bdb1944100d6c5a87dc961928</sys_update_name>
+        <sys_updated_by>pooja.chugwani@snc</sys_updated_by>
+        <sys_updated_on>2019-11-30 07:35:08</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view>User</view>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>730322c2db9108d042b321c4059619aa</instance_id>
+        <instance_name>discoverynewyork</instance_name>
+        <name>sys_script_client_b8ee0c3bdb1944100d6c5a87dc961928</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;short_description&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;NeedIt Set Requested For&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	
+	alert("Ypu have changed Short description  from " + oldValue + " to " + newValue);
+
+   //Type appropriate comment here, and begin script below
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;pooja.chugwani@snc&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-11-30 07:16:53&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;b8ee0c3bdb1944100d6c5a87dc961928&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;NeedIt Set Requested For&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_b8ee0c3bdb1944100d6c5a87dc961928&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;pooja.chugwani@snc&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-11-30 07:35:08&lt;/sys_updated_on&gt;&lt;table&gt;x_58872_needit_needit&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view&gt;User&lt;/view&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>80404197</payload_hash>
+        <record_name>NeedIt Set Requested For</record_name>
+        <reverted_from/>
+        <source>7fe2143fdb1944100d6c5a87dc9619f8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>pooja.chugwani@snc</sys_created_by>
+        <sys_created_on>2019-11-30 07:35:08</sys_created_on>
+        <sys_id>8f175033db5944100d6c5a87dc9619e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16ebb3c18920000001</sys_recorded_at>
+        <sys_updated_by>pooja.chugwani@snc</sys_updated_by>
+        <sys_updated_on>2019-11-30 07:35:08</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>0b175033e459441087210315c86b03e2</update_guid>
+        <update_guid_history>0b175033e459441087210315c86b03e2:80404197,a2f65cff8019441061d4d53e84765dd3:-1769011822,4eb618ff111944101b3552f460d0c126:428986271,369658ff7c1944109893ca66ea338282:-1769011822,bbe2143f6d194410996c1728706c35fa:815016933</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>pooja.chugwani@snc</sys_created_by>
+        <sys_created_on>2019-12-01 08:30:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>592589c080024e20a51653beb247ba44</sys_id>
+        <sys_metadata>b8ee0c3bdb1944100d6c5a87dc961928</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Set Requested For</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="NeedIt">45007fcd0fa83200cd674f8ce1050ebc</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_script_client_b8ee0c3bdb1944100d6c5a87dc961928</sys_update_name>
+        <sys_update_version display_value="sys_script_client_b8ee0c3bdb1944100d6c5a87dc961928">8f175033db5944100d6c5a87dc9619e2</sys_update_version>
+        <sys_updated_by>pooja.chugwani@snc</sys_updated_by>
+        <sys_updated_on>2019-12-01 08:30:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
